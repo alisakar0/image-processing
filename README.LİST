@@ -1,0 +1,43 @@
+Project Overview
+This program aims to obtain similar products by performing visual searches on shopping sites. Our approach involves using the ResNet50 model to extract features from hundreds of product images and storing these features in a Numpy array. By using cosine similarity, we can find the most similar products to the one entered by the user. This project is implemented and run on Google Colab.
+
+Requirements
+Python 3.x
+Google Colab
+numpy
+scikit-learn
+Pillow (PIL)
+torch
+torchvision
+Setup and Usage
+Clone the Repository
+
+Clone the repository containing the project files to your local machine or directly to Google Colab.
+
+Install Required Libraries
+
+Ensure you have all the necessary libraries installed. If not, install them using pip:
+!pip install numpy scikit-learn pillow torch torchvision
+
+Upload Your Product Images
+
+Upload the images you want to analyze. Ensure your images are stored in a folder in your Google Drive, e.g., /content/drive/MyDrive/Colab Notebooks/products.
+
+Extract Features and Save
+
+Run the following code snippet to extract features from the images and save them:
+
+Find Similar Images
+
+After saving the features, run the following code snippet to find similar images based on a query image:
+
+
+Notes
+Ensure that the product images are stored within your project directory.
+Adjust the paths and filenames as necessary.
+This project leverages Google Colab's GPU capabilities for faster processing. Ensure your Colab environment has GPU enabled.
+
+Future Improvements
+Implement a more efficient way to handle large datasets.
+Explore other feature extraction models for potentially better results.
+Develop a web interface for easier user interaction.
