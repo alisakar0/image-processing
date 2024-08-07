@@ -41,3 +41,9 @@ Future Improvements
 Implement a more efficient way to handle large datasets.
 Explore other feature extraction models for potentially better results.
 Develop a web interface for easier user interaction.
+
+
+!!## app1(!).py I try on it how can ı do faster this code. 
+   ## new optimization
+      -batch processing 
+      - using Gpu
